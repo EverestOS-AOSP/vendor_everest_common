@@ -8,6 +8,10 @@ else
 EVEREST_EDITION := VANILLA
 endif
 
+# Cloned app exemption
+PRODUCT_COPY_FILES += \
+    vendor/everest/common/prebuilt/common/etc/sysconfig/preinstalled-packages-platform-everest-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-everest-product.xml
+
 # Read maintainer and device lists
 OFFICIAL_MAINTAINERS := $(shell cat everest-maintainers/everest.maintainers)
 OFFICIAL_DEVICES := $(shell cat everest-maintainers/everest.devices)
