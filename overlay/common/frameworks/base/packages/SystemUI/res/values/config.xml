@@ -24,6 +24,21 @@
         internet,location,bt,flashlight,airplane,nfc,hotspot,battery,screenrecord,mictoggle,cameratoggle
     </string>
 
+    <!-- SystemUI Plugins that can be loaded on user builds. -->
+    <string-array name="config_pluginAllowlist" translatable="false">
+        <item>com.android.systemui.clocks</item>
+        <item>com.android.systemui.clocks.debug</item>
+        <item>com.android.systemui.clocks.bignum</item>
+        <item>com.android.systemui.clocks.calligraphy</item>
+        <item>com.android.systemui.clocks.flex</item>
+        <item>com.android.systemui.clocks.growth</item>
+        <item>com.android.systemui.clocks.handwritten</item>
+        <item>com.android.systemui.clocks.inflate</item>
+        <item>com.android.systemui.clocks.metro</item>
+        <item>com.android.systemui.clocks.numoverlap</item>
+        <item>com.android.systemui.clocks.weather</item>
+    </string-array>
+
     <!-- Time (in ms) to delay the bouncer views from showing when passive auth may be used for
     device entry. -->
     <integer name="primary_bouncer_passive_auth_delay">0</integer>
