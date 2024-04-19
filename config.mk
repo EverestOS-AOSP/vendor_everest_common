@@ -12,6 +12,8 @@ $(call inherit-product-if-exists, vendor/parasite/prebuilts/config.mk)
 WITH_GAPPS ?= true
 ifeq ($(WITH_GAPPS),true)
 $(call inherit-product-if-exists, vendor/gms/products/gms.mk)
+else
+include vendor/everest/common/config/vanilla.mk
 endif
 
 # Microsoft
