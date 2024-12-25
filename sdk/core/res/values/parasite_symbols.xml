@@ -24,4 +24,7 @@
     <java-symbol type="array" name="global_phenotype_package_namespaces" />
     <java-symbol type="array" name="device_phenotype_package_namespaces" />
 
+    <!-- Whether to cancel fingerprint operation if not idle -->
+    <java-symbol type="bool" name="config_fpCancelIfNotIdle" />
+
 </resources>
