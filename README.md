@@ -1,3 +1,5 @@
-# vendor_parasite_common
+# vendor_everest_common
 
-Vendor customisations for TheParasiteProject.
+Vendor customisations for EverestOS.
+
+Fork of: https://github.com/TheParasiteProject/vendor_parasite_common
