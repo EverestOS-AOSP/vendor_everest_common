@@ -1,5 +1,6 @@
 # Branding
 $(call inherit-product, $(VENDOR_PARASITE_COMMON_DIR)/config/version.mk)
+$(call inherit-product, $(VENDOR_PARASITE_COMMON_DIR)/config/everest.mk)
 
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.com.android.dataroaming=false \

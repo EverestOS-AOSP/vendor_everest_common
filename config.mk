@@ -13,7 +13,7 @@ $(call inherit-product-if-exists, vendor/parasite/prebuilts/config.mk)
 
 # GMS
 TARGET_INCLUDE_PIXEL_FRAMEWORKS := false
-$(call inherit-product, vendor/google/gms/products/gms.mk)
+$(call inherit-product, vendor/gms/products/gms.mk)
 
 # Microsoft
 TARGET_PHONE_LINK_SUPPORTED := false
