@@ -9,7 +9,10 @@ $(call inherit-product-if-exists, vendor/parasite/certification/config.mk)
 $(call inherit-product-if-exists, vendor/parasite/prebuilts/config.mk)
 
 # GMS
-$(call inherit-product, vendor/gms/products/gms.mk)
+WITH_GAPPS ?= true
+ifeq ($(WITH_GAPPS),true)
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
+endif
 
 # Microsoft
 TARGET_PHONE_LINK_SUPPORTED := false
