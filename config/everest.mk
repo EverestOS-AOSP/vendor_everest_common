@@ -1,3 +1,10 @@
+# Everest Edition
+ifeq ($(WITH_GAPPS),true)
+EVEREST_EDITION := GAPPS
+else
+EVEREST_EDITION := VANILLA
+endif
+
 # Read maintainer and device lists
 OFFICIAL_MAINTAINERS := $(shell cat everest-maintainers/everest.maintainers)
 OFFICIAL_DEVICES := $(shell cat everest-maintainers/everest.devices)
@@ -32,3 +39,4 @@ ifeq ($(EVEREST_BUILDTYPE),OFFICIAL)
         $(error Build system error: Invalid official build configuration)
     endif
 endif
+
