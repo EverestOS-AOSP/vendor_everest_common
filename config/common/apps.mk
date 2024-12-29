@@ -28,10 +28,6 @@ endif #PRODUCT_NO_CAMERA
 PRODUCT_PACKAGES += \
     SystemUIFlagFlipper
 
-# TouchGestures
-PRODUCT_PACKAGES += \
-    TouchGestures
-
 # Face Unlock
 ifeq ($(TARGET_SUPPORTS_64_BIT_APPS),true)
 TARGET_FACE_UNLOCK_SUPPORTED ?= true
