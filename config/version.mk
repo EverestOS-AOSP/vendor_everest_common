@@ -28,4 +28,5 @@ PRODUCT_SYSTEM_PROPERTIES += \
     ro.everest.buildtype=$(LINEAGE_BUILDTYPE) \
     ro.everest.version=$(EVEREST_VERSION) \
     ro.everest.codename=$(EVEREST_CODENAME) \
-    ro.everest.edition=$(EVEREST_EDITION)
+    ro.everest.edition=$(EVEREST_EDITION) \
+    ro.everest.maintainer=$(EVEREST_MAINTAINER)
