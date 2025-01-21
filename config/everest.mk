@@ -1,3 +1,6 @@
+# Bootanimation
+include vendor/everest/common/config/bootanimation.mk
+
 # Everest Edition
 ifeq ($(WITH_GAPPS),true)
 EVEREST_EDITION := GAPPS
