@@ -1,5 +1,6 @@
 # Branding
 $(call inherit-product, $(VENDOR_EVEREST_COMMON_DIR)/config/version.mk)
+$(call inherit-product, $(VENDOR_EVEREST_COMMON_DIR)/config/everest.mk)
 $(call inherit-product, $(VENDOR_EVEREST_COMMON_DIR)/config/everest_version.mk)
 
 PRODUCT_SYSTEM_PROPERTIES += \
