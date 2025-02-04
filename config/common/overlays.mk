@@ -19,6 +19,11 @@ PRODUCT_PACKAGES += \
     LineageNavigationBarNarrowSpace \
     LineageNavigationBarNoSpace
 
+# PixelLauncherOverlays
+PRODUCT_PACKAGES += \
+    PixelLauncherOverlayBlur \
+    PixelLauncherOverlayCustom
+
 # SystemUI Customisation
 PRODUCT_PACKAGES += \
     SystemUICustomOverlay \
